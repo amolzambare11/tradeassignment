@@ -19,6 +19,8 @@ There are couples of validation, we need to provide in the above assignment
 
 SERVICE :
 Method : post
-url : http://localhost:8080/trade
-request body : { "tradeId":"T1", "version":1, "counterParty":"counterParty1",
-"bookId": "bookId", "maturityDate": "2020-05-20", "expiredFlag":"Y" }
+url : http://localhost:8042/trade
+request body : { "tradeId":"T1", "version":1, "counterParty":"counterParty1", "bookId": "bookId", "maturityDate": "2021-02-04", "expiredFlag":"Y" }
+
+Method : Get [to show data]
+url : http://localhost:8042/trade
